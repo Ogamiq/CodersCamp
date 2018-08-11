@@ -13,21 +13,28 @@ function insertMissingLetters(str) {
     return newString;
 }
 
+function toASCIList(str) {
+    let ASCIList = [];
+    for (let i = 0; i < str.length; i++) {
+        ASCIList[i] = str[i].charCodeAt(0);
+    }
+    return ASCIList;
+}
+
+function stringFromASCIList(ASCIList) {
+    let charList = [];
+    for (let i = 0; i < ASCIList.length; i++) {
+        charList.push(String.fromCharCode(ASCIList[i]))
+    }
+    return charList.join('');
+}
+
 function range(start, end) {
     let result = []
     for (let i = start; i <= end; i++) {
         result.push(i)
     }
     return result;
-}
-
-function toASCIList(str) {
-    let ASCIList = [];
-    for(let i = 0; i < str.length; i++)
-    {
-        ASCIList[i] = str[i].charCodeAt(0);
-    }
-    return ASCIList;
 }
 
 function difference(setA, setB) {
@@ -38,13 +45,6 @@ function difference(setA, setB) {
     return _difference;
 }
 
-function stringFromASCIList(ASCIList) {
-    let charList = [];
-    for(let i = 0; i < ASCIList.length; i++) {
-        charList.push(String.fromCharCode(ASCIList[i]))
-    }
-    return charList.join('');
-}
 
 console.log(insertMissingLetters(str1));
 
