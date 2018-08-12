@@ -2,7 +2,7 @@ const str1 = 'holly';
 const str2 = 'abc';
 
 function insertMissingLetters(str) {
-    newString = '';
+    let newString = '';
     for(let i = 0; i < str.length; i++){
         let alphabetFromLetter = new Set(range(str[i].charCodeAt(0) + 1, 122));
         let stringASCI = new toASCIList(str1);
