@@ -1,5 +1,7 @@
+//Missing Alphabet
 const str1 = 'holly';
 const str2 = 'abc';
+const str3 = 'ux';
 
 function insertMissingLetters(str) {
     let newString = '';
@@ -46,7 +48,7 @@ function difference(setA, setB) {
 }
 
 
-console.log(insertMissingLetters(str1));
+console.log(insertMissingLetters(str3));
 
 
 

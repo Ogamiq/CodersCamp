@@ -1,3 +1,4 @@
+//Format a string of names like 'Bart, Lisa & Maggie'.
 const names1 = [{ name: 'Bart' }, { name: 'Lisa' }, { name: 'Maggie' }];
 const names2 = [{ name: 'Bart' }, { name: 'Lisa' }];
 const names3 = [{ name: 'Bart' }];

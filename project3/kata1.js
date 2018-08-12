@@ -1,3 +1,4 @@
+//Ones and Zeros
 const arr1 = [1,1,0,1]; //13
 const arr2 = [1,0,0,0]; //8
 const arr3 = [0,1,1,1]; //7

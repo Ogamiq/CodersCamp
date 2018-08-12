@@ -1,3 +1,4 @@
+//Growth of a Population
 function nbYear(p0, percent, aug, p) {
     let currentPopulation = p0;
     let currentYear = 0;

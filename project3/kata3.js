@@ -1,3 +1,4 @@
+//Printer Errors
 const s1 = "aaabbbbhaijjjm"
 const s2 = "aaaxbbbbyyhwawiwjjjwwm"
 

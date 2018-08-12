@@ -1,3 +1,4 @@
+//Vowel count
 const str1 = "abracadabra";
 const vovels = ['a','e','i','o'];
 

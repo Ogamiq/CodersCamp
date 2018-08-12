@@ -1,3 +1,4 @@
+//Complementary DNA
 const dna1 = "AAAA";
 const dna2 = "ATTGC";
 const dna3 = "GTAT";
