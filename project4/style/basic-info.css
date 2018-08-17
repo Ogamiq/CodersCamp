@@ -1,0 +1,17 @@
+.basic-info-container {
+  width: 520px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  color: #919191;
+  background-color: #E8EAED;
+}
+
+.basic-info-boxL {
+    width: 50%;
+}
+
+.basic-info-boxR {
+    width: 50%;
+}
